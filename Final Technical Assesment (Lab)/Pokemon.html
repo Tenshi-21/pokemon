@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <title>Pokemon</title>
+  <script type = "text/javascript" src = "./pokemon.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "pokemon.css" />
+</head>
+
+<div class="game">
+  <div class="opponent">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "apHP" class="hp-count">100</div>
+      </div>
+      <span class="name">
+        Charmeleon
+      </span>
+      <span class="level">
+        45
+      </span>
+    </div>
+    <img class="pokemon" src="Charmeleon_BW.webp" alt ="A sprite of Charmeleon" />
+  </div>
+  <div class="player">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "myHP" class="hp-count">100</div>
+      </div>
+      <span class="name">
+        Wartotle
+      </span>
+      <span class="level">
+        29
+      </span>
+    </div>
+    <img class="pokemon" src="Wartortle_BW_Back.webp" alt="Wartotle back sprite" />
+  </div>
+</div>
+<div class="box">
+  <div id = "message" class="message">
+    What should Wartotle do?
+  </div>
+  <div class="actions">
+    <button onclick = "waterCannon()">Water Cannon</button>
+    <button onclick = "waterPulse()">Water Pulse</button>
+    <button onclick = "surf()">Surf</button>
+    <button onclick = "tackle()">Tackle</button>
+  </div>
+  <div class = "continue">
+    <button onclick = "compPokemon()">Continue</button>
+  </div>
+</div>
